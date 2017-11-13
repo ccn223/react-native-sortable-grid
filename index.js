@@ -469,8 +469,8 @@ class SortableGrid extends Component {
       this.state.startDragWiggle.setValue(20)
       Animated.spring(this.state.startDragWiggle, {
         toValue: 0,
-        velocity: 2000,
-        tension: 2000,
+        velocity: 4000,
+        tension: 4000,
         friction: 5
       }).start()
     }
